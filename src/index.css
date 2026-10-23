@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@layer base {
+  *, *::before, *::after, html, body, button, input, textarea, select {
+    font-family: "Times New Roman", Times, "Liberation Serif", serif !important;
+  }
+}
+
+:root {
+  --primary-navy: #102E56;
+  --primary-blue: #1769E0;
+  --primary-cyan: #17B8D9;
+  --bg-light: #EFF7FF;
+  --text-main: #12305A;
+}
+
+body {
+  font-family: "Times New Roman", Times, "Liberation Serif", serif !important;
+  background-color: #EFF7FF;
+  color: #12305A;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #EFF7FF;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Print styles */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+}

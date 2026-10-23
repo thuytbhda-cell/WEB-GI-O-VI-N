@@ -1,0 +1,6 @@
+{
+  "name": "VĂN HỌC CÙNG CÔ THỦY - TRƯỜNG THPT HOÀI ĐỨC A",
+  "description": "Hệ thống quản lý, dạy học, kiểm tra, đánh giá môn Ngữ văn THPT - Giáo viên Thủy Nguyễn. Hành trình gieo yêu thương qua những con chữ.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
